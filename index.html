@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>CV</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Rubén F. Fuertes</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user' ></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book'></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon'></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#works" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>My Works
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon'></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+
+                                <img src="assets/img/perfil.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title"> RUBÉN <b>FERNÁNDEZ FUERTES</b></h1>
+                                <h3 class="home__profession">PhD Student in Finance</h3>
+                                <p  class="home__uni">Università Bocconi</p>
+
+                               
+                                <!-- <div class="home_button">
+                                    <a download="" ref="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                                </div> -->
+
+                                <div class="home__address bd-grid">
+                                    <span class="home__information">
+                                        <i class="bx bx-map home__icon"></i> Via Roentgen, 1. Milan (Italia)
+                                    </span>
+                                    
+                                    <span class="home__information">
+                                        <i class="bx bx-envelope home__icon" href="ruben.fernandez@phd.unibocconi.it"></i> ruben.fernandez@phd.unibocconi.it
+                                    </span>
+
+                                    <span class="home__information">
+                                        <i class="bx bx-phone home__icon"></i> +34 619 82 85 57
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+
+                         <!-- Button to generate and download the pdf. Available for desktop. -->
+                         <!-- <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i> -->
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section__title">SOCIAL</h2>
+                        <div class="social__container bd-grid">
+                            <a href="https://github.com/r-ubenlin" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon' ></i>@r-uben
+                            </a>
+                            <a href="https://www.linkedin.com/in/rubén-fernández-fuertes/" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin social__icon' ></i> Rubén Fernández Fuertes
+                            </a>
+                            <a href="https://twitter.com/r_uben__" target="_blank"class="social__link">
+                                <i class='bx bxl-twitter social__icon' ></i> @r_uben__
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section__title">Profile</h2>
+                        <p class="profile__description"> I have received a Merid-Based Fellowship for a PhD program in Finance at the Università Bocconi.
+                            I have worked in Reinforcement Learning applied to Portfolio Selection Optimisation problems, but I am also interested in Real Options,
+                            Climate Finance and many other areas in Finance which are deeply connected with Mathematics.
+                            
+                        </p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section__title">Education</h2>
+                        
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd grid">
+                                    <h3 class="education__title">PhD in Finance</h3>
+                                    <span class="education__studies">Università Bocconi (UB)</span>
+                                    <p class="education__year">2021</p>
+                                </div>
+                            </div>
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd grid">
+                                    <h3 class="education__title">MSc in Mathematical Finance</h3>
+                                    <span class="education__studies">University of Manchester (UoM)</span>
+                                    <p class="education__year">2020 - 2021</p>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd grid">
+                                    <h3 class="education__title">MSc in Teacher Training</h3>
+                                    <span class="education__studies">Universidad Europea (UE)</span>
+                                    <p class="education__year">2019-2020</p>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                    
+                                <div class="education__data bd grid">
+                                    <h3 class="education__title">BSc in Mathematics</h3>
+                                    <span class="education__studies">Universidad Autónoma de Madrid (UAM)</span>
+                                    <p class="education__year">2015-2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section__title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Python
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> C++
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Matlab
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> R
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> HTML & CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> LaTeX
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        
+                    </section>
+
+                    <!--========== MY WORKS ==========-->
+                    <section class="works" id="works">
+                        <h2 class="section__title">My works</h2>
+                        <div class="works_container bd-grid">
+                            <div class="works__content">
+                                <h3 class="works__title"> Reinforcement Learning approach to continuous mean-variance portfolio selection</h3>
+                                <ul class="works__description">
+                                    <li>Final Thesis for the MSc in Mathematical Finance (2021)</li>
+                                    <li>University of Manchester</li>
+                                    <li>Supervisors: Dr. Denis Denisov and Dr. Peter Johnson</li>
+                                </ul>
+                            </div>
+                            <div class="works__content">
+                                <h3 class="works__title"> The Geometry of Tessellations. The (2,3,7)-tessellation</h3>
+                                <ul class="works__description">
+                                    <li>Final Thesis for the BSc in Mathematics (2019)</li>
+                                    <li>Universidad Autónoma de Madrid</li>
+                                    <li>Supervisor: Dr. Jesús Gonzalo Pérez</li>
+                                    <li>Average: 9.8/10</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section__title">Certificates</h2>
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Certificate in Advanced English (CAE)</h3>
+                                <li class="certificate__name">
+                                    <span class="certificate__circle"> 189 up to 210</span>
+                                </li>
+                                <li class="certificate__name">
+                                    <span class="certificate__circle"> November 2019</span>
+                                </li>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">International English Language Testing System (IELTS)</h3>
+                                <li class="certificate__name">
+                                    <span class="certificate__circle"> 7 up to 9</span>
+                                </li>
+                                <li class="certificate__name">
+                                    <span class="certificate__circle"> January 2020</span>
+                                </li>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Professional Intermediate-level Music and Dance Qualification: Viola</h3>
+                                <li class="certificate__name">
+                                    <span class="certificate__circle"> Conservatorio Profesional de Arturo Soria</span>
+                                </li>
+                                <li class="certificate__name">
+                                    <span class="certificate__circle"> 9 up to 10</span>
+                                </li>
+                                <li class="certificate__name">
+                                    <span class="certificate__circle">June 2020</span>
+                                </li>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references" >
+                        <h2 class="section__title">References</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Professor of Analysis, UAM</span>
+                                <h3 class="references__title">Dr. Fernando Soria</h3>
+                                <ul class="references__contact">
+                                    <li>email: fernando.soria@uam.es</li>
+                                    <li>Phone: (+34) 91 497 4796</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Professor, UAM</span>
+                                <h3 class="references__title">Dr. Pablo Fernández</h3>
+                                <ul class="references__contact">
+                                    <li>email: pablo.fernandez@uam.es</li>
+                                    <li>Phone: (+34) 91 497 49 30</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section__title">Languages</h2>
+
+                        <div class="languages__container bd-grid">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Spanish
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Italian
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!--========== HONOURS ==========-->
+                    <section class="honours">
+                        <h2 class="section__title bd-grid">Honours</h2>
+                        <div class="honours__container bd-grid">
+                            <div class="honours__content bd-grid">
+                                <li class="honours__name">
+                                    <span class="honours__circle">PhD Bocconi Merit-Based Fellowship, 2021</span>
+                                </li>
+                                <li class="honours__name">
+                                    <span class="honours__circle">High Honours in Modelisation and Complex Analyisis, 2017</span>
+                                </li>
+                                <li class="honours__name">
+                                    <span class="honours__circle">High Honours in Bachillerato, 2015</span>
+                                </li>  
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        
+                    </section>
+
+                    <section class="other">
+                        <h2 class="section__title bd-grid">Other Education and Interests</h2>
+                        <div class="other__container bd-grid">
+                            <div class="honours__content bd-grid">
+                                <p> I also a professional musician who has dedicated a great part of his life to play in different orchestras and music 
+                                    groups. I am also interested in Art, Literature and, particulary, Languages and Philosophy, particulary in Greek and Latin, 
+                                    and in Philosophy of Science.
+                                </thead></p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <!-- <script src="assets/js/html2pdf.bundle.min.js"></script> -->
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
