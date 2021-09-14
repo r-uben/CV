@@ -358,10 +358,9 @@ img{
 .home__img{
   width: 95px;
   height: 127px;
-  border-radius: 90%;
   justify-self: center;
   margin-bottom: var(--mb-1);
-  border: 0.5px solid var(--text-color);
+  border: 1px solid var(--text-color);
 }
 
 .home__title{
