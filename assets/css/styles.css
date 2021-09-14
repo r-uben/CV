@@ -102,7 +102,6 @@ body.scale-cv{
 /*========== Main page button ==========*/
 
 .main-page{
-  display: none;
   position: absolute;
   top: 2.2rem;
   left:0;
@@ -110,6 +109,10 @@ body.scale-cv{
   color: var(--text-color);
   cursor: pointer;
 }
+.main-page:hover{
+  color: var(--title-color);
+}
+
 
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
 .scale-cv .change-theme,
@@ -133,7 +136,7 @@ body.scale-cv{
   padding: 0 1rem;
 }
 .scale-cv .home__img{
-  width: 70px;
+  width: 80px;
   height: 90px;
 }
 .scale-cv .home__container{
@@ -343,7 +346,7 @@ img{
 }
 
 .home__container{
-  gap:1em;
+  gap:1em
 }
 
 .home__data{
@@ -353,11 +356,12 @@ img{
 
 
 .home__img{
-  width: 90px;
-  height: 130px;
-  border-radius: 80%;
+  width: 95px;
+  height: 127px;
+  border-radius: 90%;
   justify-self: center;
   margin-bottom: var(--mb-1);
+  border: 0.5px solid var(--text-color);
 }
 
 .home__title{
@@ -552,7 +556,7 @@ img{
 }
 
 .honours__name{
-  font-size: var(--smaller-font-size);
+  font-size: var(--font-medium);
 }
 
 /*========== INTERESTS ==========*/
