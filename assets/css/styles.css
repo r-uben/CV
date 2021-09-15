@@ -360,7 +360,8 @@ img{
   height: 127px;
   justify-self: center;
   margin-bottom: var(--mb-1);
-  border: 1px solid var(--text-color);
+  border: 0.1px solid rgb(44, 44, 44);
+  border-radius: 40%;
 }
 
 .home__title{
